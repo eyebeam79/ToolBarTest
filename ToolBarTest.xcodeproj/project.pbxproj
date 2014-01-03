@@ -21,6 +21,7 @@
 		B3ED96F318767D9000826145 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3ED96D518767D8F00826145 /* UIKit.framework */; };
 		B3ED96FB18767D9000826145 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3ED96F918767D9000826145 /* InfoPlist.strings */; };
 		B3ED96FD18767D9000826145 /* ToolBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3ED96FC18767D9000826145 /* ToolBarTestTests.m */; };
+		B3ED97081876805500826145 /* Wilson.png in Resources */ = {isa = PBXBuildFile; fileRef = B3ED97071876805500826145 /* Wilson.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B3ED96F818767D9000826145 /* ToolBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		B3ED96FA18767D9000826145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3ED96FC18767D9000826145 /* ToolBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolBarTestTests.m; sourceTree = "<group>"; };
+		B3ED97071876805500826145 /* Wilson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wilson.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		B3ED96C518767D8F00826145 = {
 			isa = PBXGroup;
 			children = (
+				B3ED97061876801B00826145 /* Resources */,
 				B3ED96D718767D8F00826145 /* ToolBarTest */,
 				B3ED96F618767D9000826145 /* ToolBarTestTests */,
 				B3ED96D018767D8F00826145 /* Frameworks */,
@@ -150,6 +153,15 @@
 				B3ED96F918767D9000826145 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3ED97061876801B00826145 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3ED97071876805500826145 /* Wilson.png */,
+			);
+			name = Resources;
+			path = ToolBarTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3ED96EA18767D8F00826145 /* Images.xcassets in Resources */,
+				B3ED97081876805500826145 /* Wilson.png in Resources */,
 				B3ED96DC18767D8F00826145 /* InfoPlist.strings in Resources */,
 				B3ED96E518767D8F00826145 /* Main.storyboard in Resources */,
 			);
